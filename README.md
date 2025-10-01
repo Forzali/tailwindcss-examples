@@ -390,3 +390,75 @@ Genellikle "Kadın" ve "Erkek" gibi iki ana kategoriyi vurgulamak için kullanı
 ```
 
 Bu bileşenler, modern bir e-ticaret sitesinin ana sayfasını oluşturmak için güçlü ve esnek temeller sağlar. Farklı arka plan görselleri ve metinlerle kolayca özelleştirebilirsiniz.
+
+---
+
+## 3. Üst Başlık (Slogan) (Split Banner)
+
+E-ticaret sitelerinin en üstünde yer alan ufak bilgilendirme alanıdır.
+
+
+```html
+<div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 relative overflow-hidden h-11 flex items-center">
+  <!-- Animasyonlu arka plan efekti -->
+  <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-pulse"><br></div>
+  
+  <div class="max-w-7xl mx-auto relative z-10 w-full">
+    <div class="flex items-center justify-between gap-2 text-xs sm:text-sm h-full">
+      
+      <!-- Sol taraf - Promo mesajları -->
+      <div class="flex items-center space-x-2 sm:space-x-4 flex-shrink min-w-0">
+        <div class="flex items-center space-x-1 sm:space-x-2">
+          <svg class="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path>
+          </svg>
+          <span class="font-medium whitespace-nowrap">🔥 %50 İndirim!</span>
+        </div>
+        
+        <div class="hidden md:flex items-center space-x-1 sm:space-x-2">
+          <svg class="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"></path>
+            <path d="M3 4a1 1 0 00-1 1v1a1 1 0 001 1h1l1.68 5.39A3 3 0 008.62 15h7.89a1 1 0 000-2H8.62a1 1 0 01-.95-.68L7.16 11h7.07a3 3 0 002.84-2.07L18.48 4H3z"></path>
+          </svg>
+          <span class="whitespace-nowrap">Ücretsiz Kargo</span>
+        </div>
+      </div>
+
+      <!-- Orta kısım - Dönen mesaj -->
+      <div class="hidden lg:flex items-center justify-center flex-1 min-w-0">
+        <div class="flex items-center space-x-1">
+          <span class="animate-pulse">✨</span>
+          <span class="font-medium whitespace-nowrap text-center">Yeni Sezon Geldi!</span>
+          <span class="animate-pulse">✨</span>
+        </div>
+      </div>
+
+      <!-- Sağ taraf - Kullanıcı aksiyonları -->
+      <div class="flex items-center space-x-2 sm:space-x-4 flex-shrink-0">
+        <div class="flex items-center space-x-1 hover:text-yellow-200 transition-colors cursor-pointer">
+          <svg class="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"></path>
+          </svg>
+          <span class="text-xs sm:text-sm font-medium whitespace-nowrap">Giriş</span>
+        </div>
+        
+        <div class="h-4 w-px bg-white/30 hidden sm:block"><br></div>
+        
+        <div class="hidden sm:flex items-center space-x-1 hover:text-yellow-200 transition-colors cursor-pointer">
+          <svg class="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path>
+          </svg>
+          <span class="text-xs sm:text-sm font-medium whitespace-nowrap">Kayıt</span>
+        </div>
+
+        <!-- Kapatma butonu -->
+        <button class="p-1 hover:bg-white/20 rounded-full transition-colors flex-shrink-0">
+          <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+```
