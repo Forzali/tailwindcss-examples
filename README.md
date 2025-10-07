@@ -462,3 +462,138 @@ E-ticaret sitelerinin en üstünde yer alan ufak bilgilendirme alanıdır.
   </div>
 </div>
 ```
+---
+
+## 4. Üst Başlık (Slogan) (Split Banner) Example
+
+```html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Bar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      // Tailwind'de Inter fontunu varsayılan olarak ayarlamak için
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+</head>
+<body>
+
+  <div class="bg-gray-100 text-gray-800 h-11 flex items-center justify-center text-sm font-medium font-sans overflow-hidden">
+    
+    <div class="w-full max-w-7xl px-5 flex items-center justify-between">
+      
+      <div class="flex items-center gap-x-3">
+        <div class="flex items-center whitespace-nowrap">
+          <img src="https://img.icons8.com/?size=100&id=G8cFxZVgW87R&format=png&color=000000" alt="Secure Shopping" class="h-[18px] mr-1.5">
+          <span>Güvenli Alışveriş</span>
+        </div>
+        
+        <span class="hidden sm:inline whitespace-nowrap font-normal">
+          <strong class="font-bold">750</strong> TL üzeri <span class="underline">Ücretsiz</span> Kargo
+        </span>
+      </div>
+      
+      <div class="flex items-center gap-x-4">
+        <a href="https://api.whatsapp.com/send?phone=+905312345678&text=Merhaba" target="_blank" class="flex items-center text-black no-underline transition-colors hover:text-gray-600">
+          <img src="https://img.icons8.com/?size=100&id=16733&format=png&color=000000" alt="WhatsApp" class="h-[22px] mr-1.5">
+          <span class="hidden sm:inline">Whatsapp Destek</span>
+        </a>
+        <a href="/oturum-ac" class="text-black no-underline transition-colors hover:text-gray-600">
+          <span>Sipariş Takibi</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
+```
+---
+
+## 5. Alt Başlık Örneği (blok)
+
+```html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Barı</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+      // Tailwind'de Inter fontunu varsayılan olarak ayarlamak için
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+</head>
+<body class="font-sans">
+
+  <div class="w-full max-w-7xl mx-auto px-4 py-12">
+    <div class="flex flex-col lg:flex-row items-center justify-around gap-10 w-full text-left">
+
+      <div class="flex items-center gap-3.5 min-w-[240px]">
+        <div class="flex-shrink-0 w-15 h-15 flex items-center justify-center">
+          <svg viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+            <path d="M2 2H22V16H2V2Z" stroke="#f2632b" stroke-width="2" fill="none"></path>
+            <path d="M2 3.5L12 10L22 3.5" stroke="#f2632b" stroke-width="2" fill="none"></path>
+          </svg>
+        </div>
+        <div class="flex flex-col leading-snug">
+          <span class="text-xl font-bold text-[#f2632b]">E-mail</span>
+          <a href="mailto:bilgi@teknikoutlet.com" class="text-lg font-semibold text-gray-800 mt-1 no-underline hover:underline">bilgi@****.com</a>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3.5 min-w-[240px]">
+        <div class="flex-shrink-0 w-15 h-15 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-full h-full">
+            <path fill="#25D366" d="M24 4C12.95 4 4 12.95 4 24c0 4.1 1.1 7.9 3.2 11.3L4 44l9-3.1C16.3 42.9 20.1 44 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4z"></path>
+            <path fill="#FFF" d="M19.9 14.6c-.4-.9-.8-1-1.2-1s-.7 0-1.1 0-1 .1-1.5.7c-.5.6-2 2-2 4.9s2.1 5.7 2.4 6.1c.3.4 3.9 6.2 9.7 8.4 4.8 1.9 5.8 1.5 6.8 1.4 1-.1 3.4-1.4 3.9-2.7.5-1.3.5-2.4.4-2.6-.1-.2-.4-.3-.9-.6-.5-.3-3-1.5-3.5-1.7-.5-.2-.8-.3-1.1.3s-1.3 1.7-1.6 2c-.3.3-.6.3-1.1.1-.5-.3-2.1-.8-4-2.6-1.5-1.3-2.5-2.9-2.8-3.4-.3-.5 0-.8.2-1.1.2-.2.5-.6.7-.9.2-.3.3-.5.5-.8.2-.3.1-.6 0-.9-.1-.3-1.2-3-1.7-4z"></path>
+          </svg>
+        </div>
+        <div class="flex flex-col leading-snug">
+          <span class="text-xl font-bold text-[#2fb541]">WhatsApp</span>
+          <a href="https://api.whatsapp.com/send?phone=+905312345678&text=Merhaba" target="_blank" class="text-lg font-semibold text-gray-800 mt-1 no-underline hover:underline">0531 123 12 12</a>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3.5 min-w-[240px]">
+        <div class="flex-shrink-0 w-15 h-15 flex items-center justify-center">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+            <path d="M4 11v2a8 8 0 0 0 16 0v-2" stroke="#f2632b" stroke-width="2" fill="none"></path>
+            <circle cx="12" cy="7" r="3.2" stroke="#f2632b" stroke-width="2" fill="none"></circle>
+          </svg>
+        </div>
+        <div class="flex flex-col leading-snug">
+          <span class="text-xl font-bold text-[#f2632b]">Müşteri Hizmetleri</span>
+          <a href="tel:4444444" class="text-lg font-semibold text-gray-800 mt-1 no-underline hover:underline">111 11 11</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
+```
