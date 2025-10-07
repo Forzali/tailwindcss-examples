@@ -362,26 +362,22 @@ Genellikle "Kadın" ve "Erkek" gibi iki ana kategoriyi vurgulamak için kullanı
 -->
 <div class="grid grid-cols-1 md:grid-cols-2">
   <!-- Sol Banner - Kadın -->
-  <div class="relative h-80 bg-cover bg-center group overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&w=687&q=80');">
-    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+  <div class="group relative h-80 overflow-hidden bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&w=687&q=80');">
+    <div class="opacity-40 absolute inset-0 flex items-center justify-center bg-black z-10">
       <div class="text-center">
         <h2 class="text-4xl font-bold text-white">KADIN</h2>
-        <a href="#" class="mt-2 inline-block text-white font-semibold border-b-2 border-white">
-          Koleksiyonu Gör
-        </a>
+        <a href="#" class="mt-2 inline-block border-b-2 border-white font-semibold text-white"> Koleksiyonu Gör </a>
       </div>
     </div>
     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: inherit;"></div>
   </div>
 
   <!-- Sağ Banner - Erkek -->
-  <div class="relative h-80 bg-cover bg-center group overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=687&q=80');">
-    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+  <div class="group relative h-80 overflow-hidden bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=687&q=80');">
+    <div class="opacity-40 absolute inset-0 flex z-10 items-center justify-center bg-black">
       <div class="text-center">
         <h2 class="text-4xl font-bold text-white">ERKEK</h2>
-        <a href="#" class="mt-2 inline-block text-white font-semibold border-b-2 border-white">
-          Koleksiyonu Gör
-        </a>
+        <a href="#" class="mt-2 inline-block border-b-2 border-white font-semibold text-white"> Koleksiyonu Gör </a>
       </div>
     </div>
     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: inherit;"></div>
