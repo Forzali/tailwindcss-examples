@@ -78,7 +78,10 @@ En çok kullanılan yöntemlerden biridir. Genellikle mobil menü butonu gibi el
 
 **Örnek:**
 
+<img width="720" alt="Screenshot 2025-10-21 at 20 24 45" src="https://github.com/user-attachments/assets/f6bb4d22-f17d-4818-bb80-6f06ea2a2315" /> <img width="260"  alt="Screenshot 2025-10-21 at 20 25 20" src="https://github.com/user-attachments/assets/e5d62874-cb2a-4711-bdb7-7f1e9de7bb56" />
+
 ```html
+
 <!--
   Açıklamalar:
   - Bu div, varsayılan olarak görünür durumdadır.
@@ -101,6 +104,8 @@ Bu da yukarıdakinin tam tersidir ve genellikle geniş ekranlara özel içerikle
 2. Belirli bir breakpoint'ten sonra (`md:` gibi) elemanı görünür hale getirmek için `block`, `flex`, `grid` gibi bir görüntüleme sınıfı kullanın. En yaygın olanı `block`'tur.
 
 **Örnek:**
+
+<img width="720" alt="Screenshot 2025-10-21 at 20 34 14" src="https://github.com/user-attachments/assets/32d5d64c-f55a-4172-a0dc-1f969d1d73eb" /><img width="260" alt="Screenshot 2025-10-21 at 20 33 09" src="https://github.com/user-attachments/assets/e4c07199-56f6-4b99-9438-3d76870b7e2c" />
 
 ```html
 <!--
@@ -131,6 +136,9 @@ E-ticaret sitelerinin en temel sayfası ürün listeleme sayfasıdır. Ekran boy
 - **Web'de (`lg`):** Ürünler dört sütun
 
 **Yöntem:** CSS Grid (`grid`) ve responsive sütun (`grid-cols-*`) sınıfları kullanılır.
+
+<img width="450" alt="Screenshot 2025-10-21 at 20 36 17" src="https://github.com/user-attachments/assets/1fb79fbe-7070-49b1-9620-5fee0bf4c20f" /><img width="350" alt="Screenshot 2025-10-21 at 20 37 41" src="https://github.com/user-attachments/assets/ba8de711-d802-45f2-9347-05e9995650ea" /><img width="162" alt="Screenshot 2025-10-21 at 20 38 29" src="https://github.com/user-attachments/assets/525f329c-57f6-49c0-9abc-d9c7a80efa4f" />
+
 
 ```html
 <!--
