@@ -8,6 +8,8 @@ Tailwind, hazır `class` (sınıf) isimlerini kullanarak HTML elemanlarına stil
 
 **Örnek:** Basit bir kart oluşturalım.
 
+<img width="925" height="134" alt="Basit Tailwindcss örneği" src="https://github.com/user-attachments/assets/feeb2f9c-bebf-4f20-9b85-c6c17b9452d0" />
+
 ```html
 <!--
   Açıklamalar:
@@ -41,6 +43,10 @@ Responsive tasarım, web sayfanızın farklı ekran boyutlarında (mobil, tablet
 Bir sınıfın başına bu ön eklerden birini getirirseniz, o stil sadece belirtilen ekran boyutunda ve daha büyüklerinde geçerli olur. **Örnek:** `md:text-center` sınıfı, ekran 768px'den büyük olduğunda metni ortalar.
 
 **Örnek:** Ekran büyüdükçe arka plan rengi ve metin hizalaması değişen bir kutu.
+
+<img width="1169" height="197" alt="lg-ekran" src="https://github.com/user-attachments/assets/cf044e28-3780-4d9c-a8a1-6f8431870da5" />
+<img width="927" height="127" alt="Tablet Boyutunda" src="https://github.com/user-attachments/assets/201206e0-477f-4cfd-aaa7-4b6bbff04fb5" />
+<img width="766" height="225" alt="Mobil Boyutta" src="https://github.com/user-attachments/assets/6ee42095-81b0-4a39-bc95-2010f0c30953" />
 
 ```html
 <!--
