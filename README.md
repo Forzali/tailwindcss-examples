@@ -11,6 +11,7 @@ Tailwind, hazır `class` (sınıf) isimlerini kullanarak HTML elemanlarına stil
 <img width="925" height="134" alt="Basit Tailwindcss örneği" src="https://github.com/user-attachments/assets/feeb2f9c-bebf-4f20-9b85-c6c17b9452d0" />
 
 ```html
+
 <!--
   Açıklamalar:
   - bg-slate-100: Arka plan rengini açık gri yapar.
@@ -198,6 +199,9 @@ Mobil cihazlarda yerden tasarruf etmek için navigasyon menüsü genellikle bir 
 - **Mobilde:** Sadece logo ve hamburger ikonu görünsün.
 - **Web'de (`md`):** Logo ve navigasyon linkleri yan yana görünsün, hamburger ikonu gizlensin.
 
+<img width="700" alt="Screenshot 2025-10-23 at 15 35 53" src="https://github.com/user-attachments/assets/b738b457-8de5-454d-a9bf-1d57eb608f33" /><img width="252" height="760" alt="Screenshot 2025-10-23 at 15 37 25" src="https://github.com/user-attachments/assets/35c02af1-4bf9-46cf-a47a-b9785f00545e" />
+
+
 ```html
 <!--
   Not: Bu örnek sadece görsel yapıyı içerir. Menüyü açıp kapatmak için
@@ -238,6 +242,9 @@ Mobil cihazlarda yerden tasarruf etmek için navigasyon menüsü genellikle bir 
 - **Web'de (`lg`):** Ürün görseli solda, ürün bilgileri sağda.
 
 **Yöntem:** Flexbox'ın yönünü (`flex-col` ve `lg:flex-row`) değiştirmek.
+<img width="700" alt="Screenshot 2025-10-23 at 15 55 01" src="https://github.com/user-attachments/assets/9a7afb70-ce42-4267-bb82-5cc1f6fbdc4b" /><img width="250" alt="Screenshot 2025-10-23 at 15 58 06" src="https://github.com/user-attachments/assets/0f91c93a-9eb5-49fc-8a39-61f462cd3b0a" />
+
+
 
 ```html
 <!--
@@ -284,6 +291,8 @@ Sitelerin en tepesinde yer alan ve genellikle "Ücretsiz Kargo" gibi duyuruları
 - **Tüm Cihazlarda:** Ekranın en üstünde, dikkat çekici ama sade bir şerit olarak görünür.
 - **Kapatma İkonu:** Kullanıcının banner'ı gizlemesine olanak tanır (ikonun işlevselliği için JavaScript gerekir).
 
+<img width="700" alt="Screenshot 2025-10-23 at 16 00 27" src="https://github.com/user-attachments/assets/3ce452f8-f5d7-44c1-bc31-dbd080d72e08" /><img width="250" alt="Screenshot 2025-10-23 at 16 01 46" src="https://github.com/user-attachments/assets/e978e02e-2281-4478-812b-572d6b1bfdfb" />
+
 ```html
 <!--
   Açıklamalar:
@@ -322,6 +331,8 @@ Ana sayfanın en dikkat çekici bölümüdür. Genellikle büyük bir görsel, e
 **Hedef:**
 - **Mobilde:** İçerik ortalanmış ve dikey olarak hizalanmıştır.
 - **Web'de (`md`):** İçerik sola yaslanmış, daha fazla boşlukla ferah bir görünüm sunar.
+<img width="700" alt="Screenshot 2025-10-23 at 16 03 23" src="https://github.com/user-attachments/assets/affa9517-d7bb-4cbf-9c0a-dc69f16b512f" /><img width="250" alt="Screenshot 2025-10-23 at 16 03 57" src="https://github.com/user-attachments/assets/6ac90cf8-796b-48e5-9493-372add0d8aca" />
+
 
 ```html
 <!--
@@ -365,6 +376,8 @@ Genellikle "Kadın" ve "Erkek" gibi iki ana kategoriyi vurgulamak için kullanı
 **Hedef:**
 - **Mobilde:** İki banner alt alta durur.
 - **Web'de (`md`):** İki banner yan yana durarak ekranı doldurur.
+<img width="700" alt="Screenshot 2025-10-23 at 16 10 56" src="https://github.com/user-attachments/assets/1079caa9-ed4f-4b69-81ae-85f0a7d6a451" /><img width="250" alt="Screenshot 2025-10-23 at 16 11 36" src="https://github.com/user-attachments/assets/b6b66854-ba90-4201-a7e8-1a5c0fccab17" />
+
 
 ```html
 <!--
@@ -406,6 +419,8 @@ Bu bileşenler, modern bir e-ticaret sitesinin ana sayfasını oluşturmak için
 ## 3. Üst Başlık (Slogan) (Split Banner)
 
 E-ticaret sitelerinin en üstünde yer alan ufak bilgilendirme alanıdır.
+<img width="700" alt="Screenshot 2025-10-23 at 16 17 22" src="https://github.com/user-attachments/assets/1a87e77c-9d42-4f76-8ea8-d11e039b3ff4" /><img width="250" alt="Screenshot 2025-10-23 at 16 17 54" src="https://github.com/user-attachments/assets/fa45b6ad-8546-4df0-9c6e-5891a847ed37" />
+
 
 
 ```html
@@ -475,31 +490,9 @@ E-ticaret sitelerinin en üstünde yer alan ufak bilgilendirme alanıdır.
 ---
 
 ## 4. Üst Başlık (Slogan) (Split Banner) Example
+<img width="700" alt="Screenshot 2025-10-23 at 16 19 41" src="https://github.com/user-attachments/assets/914c266f-4871-4661-9330-7718e5ada3ef" /><img width="250" alt="Screenshot 2025-10-23 at 16 20 13" src="https://github.com/user-attachments/assets/4f3ffd60-0613-4a13-8b41-b7dd84d1f765" />
 
 ```html
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header Bar</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-    <script>
-      // Tailwind'de Inter fontunu varsayılan olarak ayarlamak için
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-          },
-        },
-      }
-    </script>
-</head>
-<body>
-
   <div class="bg-gray-100 text-gray-800 h-11 flex items-center justify-center text-sm font-medium font-sans overflow-hidden">
     
     <div class="w-full max-w-7xl px-5 flex items-center justify-between">
@@ -527,38 +520,13 @@ E-ticaret sitelerinin en üstünde yer alan ufak bilgilendirme alanıdır.
 
     </div>
   </div>
-
-</body>
-</html>
 ```
 ---
 
 ## 5. Alt Başlık Örneği (blok)
+<img width="700" alt="Screenshot 2025-10-23 at 16 21 07" src="https://github.com/user-attachments/assets/7753bfb7-8957-4374-92de-865c4b5e4aa8" /><img width="250" alt="Screenshot 2025-10-23 at 16 21 37" src="https://github.com/user-attachments/assets/e77b997c-0a6d-4d41-8e33-a5234fa0efb2" />
 
 ```html
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İletişim Barı</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <script>
-      // Tailwind'de Inter fontunu varsayılan olarak ayarlamak için
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-          },
-        },
-      }
-    </script>
-</head>
-<body class="font-sans">
-
   <div class="w-full max-w-7xl mx-auto px-4 py-12">
     <div class="flex flex-col lg:flex-row items-center justify-around gap-10 w-full text-left">
 
@@ -603,7 +571,4 @@ E-ticaret sitelerinin en üstünde yer alan ufak bilgilendirme alanıdır.
 
     </div>
   </div>
-
-</body>
-</html>
 ```
